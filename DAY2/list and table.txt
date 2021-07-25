@@ -1,0 +1,18 @@
+MAke a list
+
+
+make a table
+
+Two types of list
+
+ordered list  - ol     
+unordered list - ul
+
+
+br  to break line
+hr  to break page horizontal
+
+b    for bold
+i    for ittalic
+em   for italic
+strong   for bold
