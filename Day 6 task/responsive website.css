@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 40%;
+    border: 3px solid white ;
+    border-radius: 50px;
+    
+}
+.navbar{
+    display: flex;
+
+}
+
+.nav-list{
+width: 60%; 
+background-color: rgb(20, 14, 116);
+display: flex;
+align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+padding: 26px 30px; 
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(236, 10, 10);
+
+}
+.nav-list li a:hover{
+    color: black;
+}
+.rightnav{
+    background-color: rgb(70, 0, 128);
+    width: 50%;
+    text-align:right ;
+}
+#search{
+padding: 5px
+font: size 33px;
+border:2px ;
+}
+
