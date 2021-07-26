@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+}
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 180px;
+    border-radius: 50px;
+}
+.nav-list li {
+    list-style: none;
+    padding: 10px 8px;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(30, 7, 245);
+    padding: 8px 12px;
+    
+}
+.rightnav {
+    width: 40%;
+    text-align: right;
+}
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background {
+    background-image: url("wallpaper.jpg");
+    height: 200px;
+    width: 100nv;
+    background-size: cover;
+    position: sticky;
+}
+.firstsection {
+    background-color: rgb(245, 10, 206);
+    height: 200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secondsection {
+    background-color: rgb(228, 19, 99);
+    height: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.myinput{
+    justify-content: center;
+
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.label2{
+    background-color: aqua;
+}
+.heading1{
+    text-align: center;
+}
+.text-big{
+    text-align: center;
+    font-size: 30px;
+}
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
