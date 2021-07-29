@@ -1,0 +1,52 @@
+.nav{
+    background-image: url('agri.jpg');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 200px;
+
+}
+
+.nav a{
+    margin: 10px;
+    justify-content: end;
+    color:black;
+
+}
+.nav-Brand img{
+    border: 2px solid black;
+    height: 50px;
+    border-radius: 10px;
+    border-color: brown;
+}
+.row img{
+    width: 200px;
+    height: 200px;
+    margin: 0cm 3cm;
+      
+    
+   
+}
+
+.mypic img{
+    width: 100%;
+    height: 300px;
+}
+/* css for form sign in */
+}
+        
+.Signin {
+    background-color:rgb(38, 141, 38);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.Signin h1 {
+    color:red;
+    font-weight: 600;
+}
+
+.Signin button {
+    color:black;
+}
+
+/* style for table */
