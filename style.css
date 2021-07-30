@@ -1,6 +1,9 @@
+body{
+    background-color: aqua;
+}
 .nav{
     background-image: url('agri.jpg');
-    background-repeat: repeat-x;
+    
     width: 100%;
     height: 200px;
 
