@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h1>I have Changed my div background by using JavaScript</h1>
+
+<div id="myDiv"></div>
+<br>
+<button type="button" onclick="myFunction()" style="background-color: red;">Set the background image of div</button>
+
+<script>
+function myFunction() {
+  document.getElementById("myDiv").style.backgroundImage = "url('img1.jpg')";
+}
+</script>
+
+</body>
+</html>
