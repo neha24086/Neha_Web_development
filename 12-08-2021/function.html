@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+
+<body>
+
+    <label>A </label>
+    <input type="text" name="nihu" value="" id="shownumber1"> <br><br>
+
+    <label>B </label>
+    <input type="text" name="nishu" value="" id="shownumber2"> <br><br>
+
+    <label>C</label>
+    <input type="text" name="rishu" value="" id="shownumber3"> <br><br>
+
+    <button onclick="findnum()"> find</button> <br><br>
+
+    <label>Result</label>
+
+    <span id="output"> </span>
+
+    <script>
+        function findnum() {
+            var nihu = document.getElementById("shownumber1").value;	
+               
+           var nishu = document.getElementById("shownumber2").value;
+
+            var rishu = document.getElementById("shownumber3").value;
+
+            if (nihu > nishu && nihu > rishu)
+                document.getElementById("output").innerHTML = "Nihu height is greater";
+            else if (nishu > nihu && nishu > rishu)
+                document.getElementById("output").innerHTML = "Nishu height is greater";
+            else if (rishu > nihu && rishu > nishu)
+                document.getElementById("output").innerHTML = "Rishu height is greater";
+           else
+            document.getElementById("output").innerHTML = "all height equal";
+
+        }
+    </script>
+
+</body>
+
+</html>
