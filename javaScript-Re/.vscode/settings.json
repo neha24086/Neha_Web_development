@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.mouseWheelScrollSensitivity": 1000,
+    "editor.mouseWheelZoom": true,
+    "editor.wordWrap": "on"
+}
